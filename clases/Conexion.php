@@ -4,7 +4,7 @@ class conectar{
         $servidor = "localhost";
         $usuario = "root";
         $password = "";
-        $baseDatos = "gestor";
+        $baseDatos = "acuapets";
         $conexion = mysqli_connect($servidor, 
             $usuario, 
             $password, 

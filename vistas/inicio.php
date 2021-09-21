@@ -5,30 +5,38 @@
 		include "header.php";
 ?>
 
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>ACUA-PETS</title>
+</head>
+<body>
 <div class="jumbotron jumbotron-fluid">
 	    <div class="container">
-			<h1 class="display-4"><center>Inicio :D</center></h1>
-			<hr>
-			<br>
-			<br>
+		<h1 class="display-4">
+			<center>
+				 <font color="violet" face="Comic Sans MS,Arial,Verdana">
+				 	¡Bienvenid@s! 
+				 </font>
+			</center>
+		</h1>
+		<hr>
 			
 
-<iframe src="https://assets.pinterest.com/ext/embed.html?id=670121619552387453" height="714" width="345" frameborder="0" scrolling="no" ></iframe>
-
-<iframe src="https://assets.pinterest.com/ext/embed.html?id=670121619552387496" height="714" width="345" frameborder="0" scrolling="no" ></iframe>
-
-<iframe src="https://assets.pinterest.com/ext/embed.html?id=717550153126920924" height="714" width="345" frameborder="0" scrolling="no" ></iframe>
 
 
 
-	
+
 		</div>
 	</div>
+</body>
+</html>
 
 
 <?php 
 		include "footer.php";
 	} else {
-		header("location:../index.php");
+		header("location:../inicio.php");
 	}
 ?>

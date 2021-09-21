@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Registro</title>
+	<title>Registro de Usuarios</title>
 
   <style>
     img{
-      width: 100%;
+      width: 10%;
     }
     body {
-      background: url(img/de.jpg)  ; 
+      background: url(img/plantas.jpg)  ; 
       background-size: cover;
       background-repeat: no-repeat;
       margin: 0;
-      height: 50vh;
+      height: 100vh;
     }
   </style>
 
@@ -22,17 +22,24 @@
 	<link rel="stylesheet" type="text/css" href="librerias/jquery-ui-1.12.1/jquery-ui.theme.css">
 	<link rel="stylesheet" type="text/css" href="librerias/jquery-ui-1.12.1/jquery-ui.css">
 </head>
+
+
 <body>
+	<br>
+	<font color="white">
 	<div class="container">
-		<h1 class="text-center">Registro de Usuarios</h1>
+		<h1 class="text-center">
+			<font color="white">Registro de Usuarios</font></h1>
 			</body>
 		<hr>
 		<div class="row">
 			<div class="col-sm-4"></div>
 			<div class="col-sm-4">
 			</body>
-				<br>
+				
+				<font color="#FFF5EE">
 				<form id="frmRegistro" method="POST" onsubmit="return agregarUsuarioNuevo()" autocomplete="off">
+					<h5>
 				<center>
 					<label><b>Nombre Personal</b></label>
 					<input type="text" name="nombre" id="nombre" class="form-control" required="">
@@ -40,27 +47,33 @@
 					<label><b>Fecha de Nacimiento</b></label>
 					<input type="text" name="fechaNacimiento" id="fechaNacimiento" class="form-control" required="" readonly="">
 					<br>
-					<label><b>Email o Correo</b></label>
-					<input type="email" name="correo" id="correo" class="form-control" required="">
-					<br>
 					<label><b>Nombre de Usuario</b></label>
 					<input type="text" name="usuario" id="usuario" class="form-control" required="">
 					<br>
-					<label><b>Password o Contraeña</b></label>
-					<input type="password" name="password" id="password" class="form-control" required="">
-				</center>
+					<label><b>Email</b></label>
+					<input type="email" name="correo" id="correo" class="form-control" required="">
+					
 					<br>
+					<label><b>Contraeña</b></label>
+					<input type="password" name="password" id="password" class="form-control" required="">
+
+				</center>
+			</h5>
+		</font>
+				<br>
 					<div class="row">
 						<div class="col-sm-6 text-left">
-							<button class="btn btn-primary">Registrar</button>
+							<a href="index.php" class="btn btn-primary">Atrás</a>
 						</div>
+
 						<div class="col-sm-6 text-right">
-							<a href="index.php" class="btn btn-success">Login</a>
+								<button class="btn btn-success">Registrar</a>
 						</div>
 					</div>
 				</form>
 			</div>
-			<div class="col-sm-4"></div>
+
+	
 		</div>
 	</div>
 
